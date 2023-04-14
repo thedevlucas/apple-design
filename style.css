@@ -6,11 +6,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+    --hover-color: rgb(173, 173, 173);
+}
+
 body {
     background-image: url(img/iphone.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 
 
 header ul {
@@ -38,6 +43,14 @@ header a {
     margin-left: 5%;
 }
 
+a {
+    transition: all .2s;
+}
+
+a:hover {
+    color: var(--hover-color);
+}
+
 .text {
     color: white;
     margin-left: 14%;
@@ -63,6 +76,11 @@ header a {
     border-radius: 30px;
 }
 
+.button:hover {
+    color: black;
+    background: var(--hover-color);
+}
+
 .links {
     margin-top: 10%;
     margin-left: 11%;
@@ -80,6 +98,10 @@ header a {
 
 .search {
     color: white;
+    cursor: pointer;
+}
+.play {
+    color: white;
     position: absolute;
     margin-top: -35%;
     margin-left: 42%;
@@ -96,6 +118,13 @@ header a {
 
 .applewatch img {
     width: 400px;
+}
+
+.applewatch span {
+    color: white;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 5%;
 }
 
 .backgroundimg {
