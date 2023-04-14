@@ -96,6 +96,10 @@ a:hover {
     font-weight: 500;
 }
 
+.links a:hover {
+    color: white;
+}
+
 .search {
     color: white;
     cursor: pointer;
