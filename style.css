@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(img/iphone.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+header ul {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 3%;
+
+}
+
+header li {
+    list-style: none;
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.lname {
+    width: 50px;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.text {
+    color: white;
+    margin-left: 14%;
+    margin-top: 7%;
+    font-size: 35px;
+    -webkit-animation: appearanim 1.8s cubic-bezier(0.08, 0.82, 0.17, 1) both .5s;
+    animation: appearanim 1.8s cubic-bezier(0.0, 0.82, 0.17, 1) both .5s;
+}
+
+.text span {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 27px;
+    border-radius: 30px;
+}
+
+.links {
+    margin-top: 10%;
+    margin-left: 11%;
+    -webkit-animation: appearanim 1.8s cubic-bezier(0.08, 0.82, 0.17, 1) both .2s;
+    animation: appearanim 1.8s cubic-bezier(0.0, 0.82, 0.17, 1) both .2s;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    color: gray;
+    margin-left: 3%;
+    font-weight: 500;
+}
+
+.search {
+    color: white;
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 42%;
+}
+
+.applewatch {
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 67%;
+    cursor: pointer;
+    -webkit-animation: appearanim 1.8s cubic-bezier(0.08, 0.82, 0.17, 1) both .8s;
+    animation: appearanim 1.8s cubic-bezier(0.0, 0.82, 0.17, 1) both .8s;
+}
+
+.applewatch img {
+    width: 400px;
+}
+
+.backgroundimg {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+@keyframes appearanim {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+  
+    }
+  
+    35% {
+        opacity: 0;
+    }
+  
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+  
+    }
+}
